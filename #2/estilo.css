@@ -1,0 +1,114 @@
+/* ******reset****** */
+* {
+	margin: 0;
+	padding: 0
+}
+body {
+	font-family: Arial;
+	font-size: 12px;
+}
+
+/* ***** containter **** */
+#container {
+	width: 750px;
+	margin: 0 auto;
+	padding-top: 8px;
+}
+
+/* **** logo *** */
+#header {
+	background: url('imagem/header.jpg') top left no-repeat;
+	width: 750px;
+	height: 200px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #9999a5;/*usar essa cor pra todos os textos*/
+}
+#header span {
+	color: #fff;
+}
+#header h1 {
+	padding-top: 8px;
+	padding-left: 20px;
+}
+#header h3 {
+	padding-left: 20px;
+}
+
+/* ***********menus********** */
+#menu {
+	width: 170px;
+	display: block;
+	height: 525px;
+	border-right: 1px solid #9999a5;
+	margin-top: 15px;
+	float: left;	
+}
+#menu ul {
+	list-style: none;
+	padding-left: 20px;
+	padding-top: 12px;
+}
+#menu ul li {
+	padding: 7px 0px 1px 0px;
+}
+#menu ul li a {
+	text-decoration: none;
+	color: #3a88c2;
+	font-size: 16px;
+}
+#menu ul li a:hover {
+	text-decoration: underline;
+}
+#menu span {
+	font-size: 12px;
+	color: #9999a5;
+}
+
+/* **************boxes com conteúdos ********* */
+#main-content {
+	width: 540px;
+	padding-top: 15px;
+	padding-right: 20px;
+	float: right;
+}
+#main-content h1 {
+	font-size: 18px;
+	color: #fff;
+	border-top: 1px solid #9999a5;
+	border-left: 1px solid #9999a5;
+	border-right: 1px solid #9999a5;
+	background: #597f20;
+	font-weight: lighter;
+	height: 28px;
+	padding: 5px 0 0 10px;
+}
+#main-content p {
+	border: 1px solid #9999a5;
+	margin-bottom: 20px;
+	padding: 20px 10px 10px 15px;
+	color: #9999a5;
+	letter-spacing: 0.4px;
+	line-height: 1.5;
+}
+#main-content p span a {
+	text-decoration: none;
+	color: #3a88c2;
+	font-size: 16px;
+	letter-spacing: 0.2px;
+}
+#main-content p span a:hover {
+	text-decoration: underline;
+}
+
+/* ******* rodapé ********** */
+#footer {
+	width: 750px;
+	clear: both;
+	border-top: 1px solid #9999a5;
+}
+#footer span {
+	display: block;
+	padding: 10px 0 10px 0;
+	text-align: right;
+	color: #9999a5;
+}
