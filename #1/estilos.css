@@ -1,0 +1,108 @@
+/* reset */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* ********* estilização do body e do container ***** */
+
+body {
+	background: #000;
+	font-family: 'lucida grande', arial, tahoma, sans-serif;
+	font-size: 62.5%; 
+}
+
+#container {
+	background: #333;
+	width: 683px;
+	margin: 0 auto;
+	padding-top: 20px;
+	position: relative;
+}
+
+/* ******header da página ************* */
+#header {
+	background: transparent url('imagem/header.jpg') top left no-repeat;
+	width: 640px;
+	height: 250px;
+	margin: 0 auto;
+}
+
+#head-title {
+	color: #fff;
+	position: relative;
+	padding-top: 200px;
+	padding-left: 20px;
+}
+/* *********menus******* */
+#menu {
+	height: 29px;
+	margin: 0, 20px;
+	padding: 5px 0;
+}
+
+#menu ul{
+	margin: 0 20px;
+	padding: 7px;
+	height: 29px;
+}
+
+#menu ul li {
+	list-style: none;
+	display: inline;
+}
+
+#menu ul li a {
+	
+	color: #767676;
+	font-size: 1em;
+	padding: 10px 7px 10px 7px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#menu ul li a:hover {
+	background: #6a7919;
+	color: #fff;
+}
+
+/* ************* conteúdo ********** */
+#main {
+	width: 640px;
+	height: 450px;
+	margin: 0 auto;
+	background: #fdfdfd;
+}
+
+#main h1 {
+	padding-left: 23px;
+	padding-top: 18px;
+	color: #6a7919;
+}
+
+#main p {
+	font-family: Tahoma;
+	font-size: 1.3em;
+	line-height: 150%;
+	margin-left: 22px;
+	margin-right: 22px;
+	color: #767676;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+/* ******* rodapé ***** */
+#footer {
+	margin: 0, auto;
+	width: 640px;
+	height: 40px;
+	padding-top: 10px;
+}
+#footer span {
+	font-family: Tahoma;
+	font-size: 14px;
+	color: #767676;
+	
+	padding-left: 30px;
+}
