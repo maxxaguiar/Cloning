@@ -1,0 +1,50 @@
+/* algumas especificações:
+width: 720px;
+background do body:#3a3731;
+background do rodapé #6e695e;
+
+usando o normalize.css para fazer o reset!!!
+*/
+
+/* ******** body e container principal ********* */
+body {
+	font-family: Trebuchet MS, Verdana, Arial, sans-serif;
+	font-size: 14px;
+	color: #282828;
+	background: #3a3731;
+}
+
+#container {
+	width: 730px;
+	margin: 0 auto;
+	padding-top: 3px;
+	background: #fff;
+}
+
+/* **************************** */
+/* ******* cabeçalho e logo ****** */
+#header {
+	background: url('images/header.jpg') top left no-repeat;
+	height: 180px;
+	width: 714px;
+	margin-left: 3px;
+	padding-top: 5px;
+	padding-bottom: 15px;
+}
+#header h1 {
+	padding-top: 50px;
+	padding-left: 15px;
+	color: #fff;
+}
+/* ******* fim do cabeçalho ****** */
+
+/* ************** menu ************ */
+
+/* height 36px; / width 160px */
+#menu span, ul li, a {
+	color: #282828;
+	font-size: 14px;
+}
+#menu span {
+	margin-left: 3px;
+}

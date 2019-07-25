@@ -1,0 +1,30 @@
+tamanho:
+width: 720px
+height: 571px
+
+posição geral:
+centro
+
+alinhamento dos elementos:
+margin left, top e bottom: 5px (?)
+margin right: 20px
+
+/////////////////////
+rodapé:
+height 20px
+width: igual ao da imagem (714px)
+
+///////////////
+fontes
+font-family: Trebuchet MS, Verdana, Arial, sans-serif;
+font-size: 14px
+
+//////////////////// 
+cores
+body: #3a3731
+menu #282828
+menu hover #c4bca8
+texto #282828
+background do rodapé #6e695e
+
+///////
