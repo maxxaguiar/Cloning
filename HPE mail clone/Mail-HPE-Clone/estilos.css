@@ -1,0 +1,140 @@
+*{box-sizing: border-box}
+
+
+#container {
+	background: #ddd;
+	width: 620px;
+	margin: 0 auto;
+	font-family: Arial, sans-serif;
+	position: relative;
+	top: -10px;
+	
+}
+
+
+/* ******** seção do cabeçalho ******** */
+
+/*****************************************/
+header {
+	width: 620px;
+	height: 150px;
+	background: rgb(67,85,99);
+	
+}
+
+header h1 {
+	position: relative;
+	top: 15px;
+	left: 0px;
+}
+
+header h2 {
+	position: relative;
+	top: -130px;
+	left: 335px;
+}
+/*****************************************/
+
+/*****************************************/
+article {
+	width: 600px;
+	height: 290px;
+	margin-left: 10px;
+	background: #fff;
+}
+article h2 {
+	padding-top: 20px;
+	padding-left: 20px;
+}
+article p {
+	padding-left: 20px;
+	
+}
+article p a {
+	color: #000;
+	font-weight: bold;	
+}
+article p span {
+	color: rgb(24,179,145);
+}
+article span a {
+	color: #000;
+	font-weight: bold;
+	text-decoration: none;
+	border: 3px solid rgb(24,179,145);
+	margin-left: 20px;
+	padding: 10px 20px;
+}
+/*****************************************/
+aside {
+	width: 600px;
+	height: 70px;
+	margin-left: 10px;
+	margin-top: 20px;
+	padding-top: 20px;
+	background-color: #fff;
+}
+aside span {
+	margin-left: 50px;
+	font-weight: bold;
+}
+aside span img {
+	padding-left: 25px;
+	position: relative;
+	top: 10px;
+}
+/*************************************/
+.line {
+	width: 600px;
+	border-top: 1px solid rgb(24,179,145);
+	margin-left: 10px;
+	margin-top: 30px;
+}
+/*************************************/
+
+footer section ul li {
+	list-style: none;
+	display: inline;
+	float: left;
+	margin:15px 0 35px 30px;
+
+}
+footer section ul li a {
+	text-decoration: none;
+	color: #808285;
+}
+footer section ul li img {
+	position: relative;
+	top: 6px;
+}
+
+
+nav ul li {
+	list-style: none;
+	display: inline;
+	margin-left: 5px;
+
+
+}
+nav ul li a {
+	font-size: 13px;
+	text-decoration: none;
+	color: #808285;
+	font-weight: bold;
+}
+nav ul li a:hover {
+	color: rgb(24,179,145);
+}
+
+
+section p {
+	font-size: 10px;
+	color: #808285;
+	margin-top: 20px;
+	margin-left: 30px;
+	margin-right: 30px;
+	padding-bottom: 10px;
+}
+section p a {
+	color: #808285;
+}	

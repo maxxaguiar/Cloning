@@ -1,0 +1,37 @@
+------        ------
+       TEXTOS 
+------        ------
+
+
+Ótimas notícias!
+
+Apenas este mês, dobre seus pontos no HPE ENGAGE&GROW vendendo VMware.
+
+Comece a ganhar:
+
+De 1º a 31 de julho, você recebe o DOBRO de Pontos pela venda de TODOS os (link)[produtos 
+participantes VMware](/link), dentro do HPE ENGAGE&GROW. 
+
+<!-- ------ rodapé -------- -->
+A HPE compromete-se em proteger sua privacidade. Suas informações não serão compartilhadas 
+fora da HPE, a menos que você dê o seu consentimento. Você pode escolher que a HPE 
+comunique-se diretamente com você. Para mais informações, consulte a 
+(link)[declaração de privacidade da HPE.](/link) Como um contato valioso ou cliente da HPE, 
+você está recebendo este Newsletter com informações que acreditamos ser relevantes para você.
+
+© 1994-2019 Hewlett-Packard Development Company, L.P. Todos os direitos reservados. 
+Todos os nomes de produtos e empresas aqui mencionados são marcas registradas de seus 
+respectivos proprietários. ESTE DOCUMENTO é OFERECIDO SOMENTE PARA FINS INFORMATIVOS.
+
+
+------        ------
+       DESIGN 
+------        ------
+
+background da logo: r,g,b (67,85,99)
+
+tom de verde dos textos: r,g,b (24,179,145)
+
+tom de cinza da moludura: r,g,b (230,231,232)
+
+banner: 600x341px

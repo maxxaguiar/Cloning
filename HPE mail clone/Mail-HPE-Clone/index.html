@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	
+	<link rel="stylesheet" type="text/css" href="slick/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick/slick-theme.css"/>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+
+  
+	<title>HPE Engage & Grow</title>
+</head>
+
+<body>
+	<div id="container"><!-- container que envolve o site -->
+
+	<header><!-- área com a logo do site -->
+		<h1><img src="imagens/logo1.jpg"></h1>
+
+		<h2><img src="imagens/logo2.jpg"></h2>
+
+	</header><!-- /header-->
+	
+	<!-- 
+		Início do Slide Show /////////////////////////
+	-->
+	<div class="slideshow">
+	
+		<!-- Imagens -->
+	<div>
+		<img src="imagens/banner_1.jpg"  style="width: 100%">
+	</div>
+
+	<div>
+		<img src="imagens/banner_2.jpg" style="width: 100%">
+	</div>
+
+	<div>
+		<img src="imagens/banner_3.jpg" style="width: 100%">
+	</div>
+
+	<div>
+		<img src="imagens/banner_4.jpg" style="width: 100%">
+	</div>
+		<!-- Fim das Imagens -->
+			
+	</div>
+	<!-- /////////////////////////////////////////////
+		Fim do Slide Show 
+	-->
+
+	<article><!-- conteúdo principal -->
+		<h2>Ótimas notícias!!!</h2>
+		<p>
+			Apenas este mês, dobre seus pontos no <strong>HPE ENGAGE<span>&</span>GROW</strong> vendendo <strong>VMware</strong>.
+		</p>
+
+		<h2>Comece a ganhar:</h2>
+		<p>
+			De 1º a 31 de julho, você recebe o <strong>DOBRO</strong> de Pontos pela venda de TODOS os <a href="#">produtos participantes VMware</a>, dentro do <strong>HPE ENGAGE<span>&</span>GROW</strong>.
+		</p>
+
+		<span><a href="#">Termos & condições</a></span>
+	</article><!-- /main -->
+
+	<aside><!-- área para as App stores -->
+		<span>Baixe nosso aplicativo móvel
+			<a href="https://play.google.com/"><img src="imagens/google-play.png"></a>
+			<a href="https://www.apple.com/br/ios/app-store/"><img src="imagens/itunes.png"></a>
+		</span>
+
+		
+	</aside><!-- /apps -->
+	
+	
+	
+	<footer><!-- rodapé -->
+		<section class="line">
+			<ul>
+				<li><a href="#"><img src="imagens/facebook-icon.png">@hpeengageandgrow</a></li>
+				<li><a href="#"><img src="imagens/instagram-icon.png">@hpe_engageandgrow</a></li>
+			</ul>
+		</section>
+
+		<nav>
+			<ul>
+				<li><a href="#">HPEengageandgrowlac.com</a></li>
+				<li><a href="#">Privacidade</a></li>
+				<li><a href="#">Fale Conosco</a></li>
+				<li><a href="#">Cancelar Recebimento</a></li>
+			</ul>
+		</nav>
+
+		<section>
+		<p>
+			A HPE compromete-se em proteger sua privacidade. Suas informações não serão compartilhadas 
+			fora da HPE, a menos que você dê o seu consentimento. Você pode escolher que a HPE 
+			comunique-se diretamente com você. Para mais informações, consulte a <a href="#">declaração de privacidade da HPE.</a> Como um contato valioso ou cliente da HPE, você está recebendo este Newsletter com informações que acreditamos ser relevantes para você.
+		</p>
+
+		<p>
+			© 1994-2019 Hewlett-Packard Development Company, L.P. Todos os direitos reservados. 
+			Todos os nomes de produtos e empresas aqui mencionados são marcas registradas de seus 
+			respectivos proprietários. ESTE DOCUMENTO é OFERECIDO SOMENTE PARA FINS INFORMATIVOS.
+		</p>
+	</section>
+
+	</footer><!-- /footer -->
+
+	</div><!-- /container -->
+	
+<!-- SCRIPTS -->
+
+<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+<script src="slick/slick/slick.min.js"></script>
+
+
+<script type="text/javascript">
+	
+		$(document).ready(function(){
+			$('.slideshow').slick({
+				dots: true,
+				infinite: true,
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				autoplay: true,
+				autoplaySpeed: 4000,
+			});
+		});
+</script>
+
+</body>
+</html>
